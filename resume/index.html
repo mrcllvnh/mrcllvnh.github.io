@@ -5,31 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <title>Resume | Marcella Van Herry</title>
 
-  <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
 
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
 
+  <!-- Icons + CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
-  <link href="../css/styles.css" rel="stylesheet" />
+  <link href="/css/styles.css" rel="stylesheet" />
 </head>
 
 <body class="d-flex flex-column h-100 bg-light">
+
 <main class="flex-shrink-0">
 
 <!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
   <div class="container px-5">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="/index.html">
       <span class="fw-bolder text-primary">Marcella Van Herry</span>
     </a>
-    <div class="collapse navbar-collapse">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto fw-bolder">
-        <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link active" href="../resume/">Resume</a></li>
-        <li class="nav-item"><a class="nav-link" href="../projects.html">Projects</a></li>
-        <li class="nav-item"><a class="nav-link" href="../contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="/resume/">Resume</a></li>
+        <li class="nav-item"><a class="nav-link" href="/projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="/contact.html">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -42,7 +51,7 @@
     <p class="text-muted">
       Geography: Data Science (UW) • GIS • Data Visualization • Analytics
     </p>
-    <a class="btn btn-primary mt-3" href="../assets/Marcella_Van_Herry_Resume.pdf" target="_blank">
+    <a class="btn btn-primary mt-3" href="/assets/Marcella_Van_Herry_Resume.pdf" target="_blank" rel="noopener">
       <i class="bi bi-download me-2"></i> Download PDF
     </a>
   </div>
@@ -53,74 +62,78 @@
 <div class="container px-5">
 <h2 class="text-primary fw-bolder mb-4">Experience</h2>
 
-<!-- CARD TEMPLATE (REUSED) -->
+<!-- GeoDat -->
 <div class="card shadow border-0 rounded-4 mb-4">
-<div class="card-body p-4 row gx-5">
-<div class="col-md-4">
-<strong>Sept 2025 – Present</strong><br>
-Vice President of Professional Development<br>
-GeoDat UW<br>
-Seattle, WA
-</div>
-<div class="col-md-8">
-<ul>
-<li>Led professional development programming focused on geospatial data science and analytics.</li>
-<li>Planned workshops, panels, and info sessions with industry professionals and alumni.</li>
-<li>Built career resources supporting internships and resume readiness.</li>
-</ul>
-</div>
-</div>
+  <div class="card-body p-4 row gx-5">
+    <div class="col-md-4">
+      <strong>Sept 2025 – Present</strong><br>
+      Vice President of Professional Development<br>
+      GeoDat UW<br>
+      Seattle, WA
+    </div>
+    <div class="col-md-8">
+      <ul>
+        <li>Led professional development programming focused on geospatial data science and analytics.</li>
+        <li>Planned workshops, panels, and info sessions with industry professionals and alumni.</li>
+        <li>Built partnerships and career resources for internships and resume readiness.</li>
+      </ul>
+    </div>
+  </div>
 </div>
 
+<!-- DRS -->
 <div class="card shadow border-0 rounded-4 mb-4">
-<div class="card-body p-4 row gx-5">
-<div class="col-md-4">
-<strong>Sept 2025 – Present</strong><br>
-Scribe<br>
-UW Disability Resources for Students<br>
-Seattle, WA
-</div>
-<div class="col-md-8">
-<ul>
-<li>Provided academic accommodations for students with disabilities.</li>
-<li>Produced accurate lecture transcriptions and materials.</li>
-<li>Maintained confidentiality and adaptability.</li>
-</ul>
-</div>
-</div>
+  <div class="card-body p-4 row gx-5">
+    <div class="col-md-4">
+      <strong>Sept 2025 – Present</strong><br>
+      Scribe<br>
+      UW Disability Resources for Students<br>
+      Seattle, WA
+    </div>
+    <div class="col-md-8">
+      <ul>
+        <li>Provided academic accommodations for students with disabilities.</li>
+        <li>Produced accurate lecture transcriptions and instructional materials.</li>
+        <li>Maintained confidentiality and adaptability to individual needs.</li>
+      </ul>
+    </div>
+  </div>
 </div>
 
+<!-- PERMIAS RTD -->
 <div class="card shadow border-0 rounded-4 mb-4">
-<div class="card-body p-4 row gx-5">
-<div class="col-md-4">
-<strong>Sept 2025 – June 2026</strong><br>
-Head of Research, Technology, and Data<br>
-PERMIAS Seattle
-</div>
-<div class="col-md-8">
-<ul>
-<li>Built dashboards and tracking systems for engagement metrics.</li>
-<li>Conducted data-driven strategy and KPI analysis.</li>
-<li>Collaborated across operations and marketing teams.</li>
-</ul>
-</div>
-</div>
+  <div class="card-body p-4 row gx-5">
+    <div class="col-md-4">
+      <strong>Sept 2025 – June 2026</strong><br>
+      Head of Research, Technology, and Data<br>
+      PERMIAS Seattle
+    </div>
+    <div class="col-md-8">
+      <ul>
+        <li>Built dashboards and tracking systems for engagement and growth.</li>
+        <li>Conducted KPI analysis to support organizational strategy.</li>
+        <li>Collaborated with operations, finance, and marketing teams.</li>
+      </ul>
+    </div>
+  </div>
 </div>
 
+<!-- NeuralSeek -->
 <div class="card shadow border-0 rounded-4 mb-4">
-<div class="card-body p-4 row gx-5">
-<div class="col-md-4">
-<strong>Aug 2025 – Sept 2025</strong><br>
-AI Agent Builder Intern<br>
-NeuralSeek
-</div>
-<div class="col-md-8">
-<ul>
-<li>Built and deployed no-code AI agents.</li>
-<li>Completed certifications in AI agent architectures.</li>
-</ul>
-</div>
-</div>
+  <div class="card-body p-4 row gx-5">
+    <div class="col-md-4">
+      <strong>Aug 2025 – Sept 2025</strong><br>
+      AI Agent Builder Intern<br>
+      NeuralSeek<br>
+      Miami, FL
+    </div>
+    <div class="col-md-8">
+      <ul>
+        <li>Built and deployed no-code AI agents.</li>
+        <li>Completed certifications in AI agent architectures and workflows.</li>
+      </ul>
+    </div>
+  </div>
 </div>
 
 </div>
@@ -128,13 +141,15 @@ NeuralSeek
 
 </main>
 
+<!-- FOOTER -->
 <footer class="bg-white py-4 mt-auto">
-<div class="container px-5 text-center">
-<small>© Marcella Van Herry 2026</small>
-</div>
+  <div class="container px-5 text-center">
+    <small>© Marcella Van Herry 2026</small>
+  </div>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="../js/scripts.js"></script>
+<script src="/js/scripts.js"></script>
+
 </body>
 </html>
